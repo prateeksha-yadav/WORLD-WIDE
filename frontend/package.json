@@ -31,4 +31,12 @@
     "globals": "^15.14.0",
     "vite": "^6.0.5"
   }
+  "homepage": "https://prateeksha-yadav.github.io/WORLD-WIDE",
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
 }
